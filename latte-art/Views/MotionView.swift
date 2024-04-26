@@ -21,7 +21,7 @@ struct MotionView: View {
             })
             Text("Hello available x :\(datax), y :\(datay), z :\(dataz)")
         } else {
-            Text("Hello unavilable")
+            Text("Hello unavilable test")
         }
         
     }
