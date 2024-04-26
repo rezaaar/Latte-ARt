@@ -17,7 +17,7 @@ struct MotionView: View {
     var body: some View {
         if motion.isDeviceMotionAvailable {
             Button(action: startDeviceMotion, label: {
-                Text("Start Motion")
+                Text("Start Motion from git")
             })
             Text("Hello available x :\(datax), y :\(datay), z :\(dataz)")
         } else {
